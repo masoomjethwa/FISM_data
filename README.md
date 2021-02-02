@@ -18,9 +18,11 @@ YDOY = DOY
 > help, IRRADIANCE to get the array info.
 > print, IRRADIANCE to print on screen (not recommended)
 9. Open files and write corresponding variables.
-> openw, 5, ‘file-DOY.dat’
-> printf, 5,IRRADIANCE (or WAVELENGTH or UTC)
-> close, 5
+
+openw, 5, ‘file-DOY.dat’;
+printf, 5,IRRADIANCE (or WAVELENGTH or UTC)
+close, 5
+
 10. Use same steps for other parameters as well.
 
 IDL uses Fortran-like formatting so you can also write FORMATTED output.

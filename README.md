@@ -14,13 +14,13 @@ UNCERTAINITY = Array of (1900, 1440) matrix
 UTC = Vector of length (1440) 
 WAVELENGTH = Vector of length (1900)
 YDOY = DOY
-8. Type in console 
-	> help, IRRADIANCE to get the array info.
-	> print, IRRADIANCE to print on screen (not recommended)
+8. Type in console
+> help, IRRADIANCE to get the array info.
+> print, IRRADIANCE to print on screen (not recommended)
 9. Open files and write corresponding variables.
-	> openw, 5, ‘file-DOY.dat’
-	> printf, 5,IRRADIANCE (or WAVELENGTH or UTC)
-	> close, 5
+> openw, 5, ‘file-DOY.dat’
+> printf, 5,IRRADIANCE (or WAVELENGTH or UTC)
+> close, 5
 10. Use same steps for other parameters as well.
 
 IDL uses Fortran-like formatting so you can also write FORMATTED output.
